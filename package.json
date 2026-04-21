@@ -1,0 +1,33 @@
+{
+  "name": "clearfunction",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MakADin/ClearFunction#readme",
+  "bugs": {
+    "url": "https://github.com/MakADin/ClearFunction/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakADin/ClearFunction.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
+    "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0"
+  }
+}
